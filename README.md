@@ -10,7 +10,7 @@ Vowel letters in English are (a, e, i, o, u).
 
 ## Solution: 
 
-Approach 1: Sliding Window (Using Queue)
+### Approach 1: Sliding Window (Using Queue)
 
 We will maintain a sliding window of size K and iterate over the input string S. 
 Input guarantees that k < or equal to length of string S. 
