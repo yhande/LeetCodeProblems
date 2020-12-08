@@ -1,6 +1,6 @@
 # 1456. Maximum Number of Vowels in a Substring of Given Length
 
-##Problem : 
+## Problem : 
 
 Given a string s and an integer k.
 
@@ -8,7 +8,7 @@ Return the maximum number of vowel letters in any substring of s with length k.
 
 Vowel letters in English are (a, e, i, o, u).
 
-##Solution: 
+## Solution: 
 
 Approach 1: Sliding Window (Using Queue)
 
@@ -47,8 +47,8 @@ public int MaxVowels(string s, int k) {
     }
 ```
 
-##Time Complexity: 
+## Time Complexity: 
 This algorithm iterates over the string S once, hence the time complexity is linear i.e O(N) where n is length or size of the string S. 
 
-##Space Complexity: 
+## Space Complexity: 
 We use a Queue to maintain a window of length K so the space complexity of this algorithm is O(K) 
